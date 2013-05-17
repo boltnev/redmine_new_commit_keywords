@@ -1,0 +1,12 @@
+<fieldset>
+  <legend><b>Регулярные выражения</b></legend>
+  Регулярное выражение для связи с задачей:<br/>
+  <%= text_field_tag 'settings[regexp_to_refer_issue_by_commit]', @settings['regexp_to_refer_issue_by_commit'] || @plugin.settings[:default]['regexp_to_refer_issue_by_commit'] %>
+  <br/>
+  Регулярное выражение для изменения статуса задачи:<br/>
+  <%= text_field_tag 'settings[regexp_to_change_status_by_commit]', @settings['regexp_to_change_status_by_commit'] || @plugin.settings[:default]['regexp_to_change_status_by_commit'] %>
+  <br/>
+  Регулярное выражение для изменения процента готовности задачи:<br/>
+  <%= text_field_tag 'settings[regexp_to_change_done_ratio_by_commit]', @settings['regexp_to_change_done_ratio_by_commit'] || @plugin.settings[:default]['regexp_to_change_done_ratio_by_commit'] %>
+  <br/>
+</fieldset>

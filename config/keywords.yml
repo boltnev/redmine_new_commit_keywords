@@ -1,0 +1,4 @@
+regexp:
+  change_status_by_commit: 'Статус|статус|Status|status'
+  change_done_ratio_by_commit: 'Готовность|готовность|Done ratio|done ratio'
+  refer_issue_by_commit: 'Задача|задача|Issue|issue'

@@ -1,0 +1,4 @@
+= new_commit_keywords
+
+Plugin to make some of the commit keywords more flexible. So, with it you can commit something like "Issue=#123, Status=#Solved". Also you can change done ratio.  
+All keywords may be changed to necessary in config/keywords.yml file
